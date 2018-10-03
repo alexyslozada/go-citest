@@ -9,7 +9,7 @@ func Factorial(n int) (int, error) {
 	}
 
 	if n == 0 || n == 1 {
-		return 2, nil
+		return 1, nil
 	}
 
 	v, _ := Factorial(n - 1)
